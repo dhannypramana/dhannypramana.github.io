@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+p, h1{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+.trans-bg{
+    background-color: rgba(0,0,0,0.8);
+    height: 250px;
+    border-radius: 5px;
+}
+
+.landing-page{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+.landing-page img.display {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    top: 25%;
+    left: 45%;
+    position: absolute;
+    border: 2px solid white;
+}
+
+.centered-profile{
+    margin-left: 35%;
+    margin-right: 20%;
+}
+
+.centered-profile > h1{
+    color: black;
+    margin-top: 100px;
+}
+
+.centered-profile > p{
+    color: black;
+    padding-left: 50px;
+}
+
+.bottom-bar{
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.ig-logo{
+    margin-top: 5px;
+}
+
+ul > li{
+    list-style-type: none;
+    float: left ;
+    margin-right: 50px;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
